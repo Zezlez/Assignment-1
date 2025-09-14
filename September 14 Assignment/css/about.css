@@ -1,0 +1,109 @@
+:root {
+    background: linear-gradient(0deg,#7e758a, 100%,rgb(48, 41, 41) 0%)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-ed {
+    text-align: center;
+}
+
+nav ul {
+    z-index: 99;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+    background: linear-gradient(0deg,#7e758a 1%,#745b75 100%);
+    position: fixed;
+    width: 100vw;
+}
+
+nav p {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding-top: 100px;
+    text-decoration: underline;
+}
+
+.nav-item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    :hover {
+        color: teal;
+    }
+    a {
+        color: rgb(60, 22, 82);
+        text-decoration: none;
+    }
+}
+
+.highlight {
+    color: teal;
+}
+
+.nav-me {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.my-icon {
+    font-size: 200%;
+}
+
+main {
+    padding-bottom: 293px; /* change pixels when picture is changed */
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutme {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-self: left;
+}
+
+.container img {
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+    height: auto;
+    max-width: 100%;
+    scale: 80%;
+}
+
+.text-container {
+    display: flex;
+    text-align: left;
+    position: relative;
+    top: 400px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(0deg,#745b75 1%, #7e758a 80%);
+}
